@@ -1,0 +1,24 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    border: 1px solid #ccc; /* Add border */
+    padding: 35px;
+    border-radius: 5px; /* Add border-radius for a rounded look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    width: 412px;
+    height: 300px; /* Set a fixed width */
+    font-size: 19px;
+  }
+  
+  .login-input {
+    margin-bottom:52px; /* Add margin between inputs */
+    font-size: 21px;
+  }
+  .login-button {
+    width: 100%; /* Make button width 100% of the form */
+  }

@@ -1,0 +1,55 @@
+/* Add these styles to your CSS file */
+
+.order-container {
+  padding: 20px;
+}
+
+.order-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.order-list .CCol {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .order-list {
+    flex-direction: column;
+  }
+
+  .order-list .CCol {
+    width: 100%;
+  }
+
+  .order-container {
+    padding: 10px;
+  }
+
+  .slider-container {
+    margin: 0 auto;
+  }
+
+  .slider-container .CCol {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .order-button-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .order-button-group .CButton {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 769px) {
+  .order-button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+}
